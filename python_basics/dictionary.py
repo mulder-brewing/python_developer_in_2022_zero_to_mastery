@@ -56,3 +56,16 @@ print(user_2)
 # pop
 print(user_2.pop('age'))
 print(user_2)
+print(user_2.popitem())
+print(user_2)
+
+# update
+dictionary = {
+    123: [1, 2, 3],
+    123: [4, 5, 6],
+    True: 'hello',
+    'x': True
+}
+dictionary.update({123: None})
+dictionary.update({'new_key': 'hi'})
+print(dictionary)
